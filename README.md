@@ -23,7 +23,7 @@ The original and resolved settings are in `configs/baseline_original_host.json` 
 Use Python 3.10. Install PyTorch for the target CUDA driver first. The source environment used torch 2.1.0 and torchvision 0.16.0.
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/tantanjiang5-crypto/ohr-birefine-uniform-randlora-baseline.git
 cd ohr-birefine-uniform-randlora-baseline
 
 python -m venv .venv
