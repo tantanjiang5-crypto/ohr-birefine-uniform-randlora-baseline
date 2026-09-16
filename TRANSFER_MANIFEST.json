@@ -2,7 +2,8 @@
   "package": "ohr-birefine-uniform-randlora-baseline-v1",
   "files": 126,
   "bytes": 942897,
-  "contains_large_artifacts": false,
+  "contains_large_artifacts": true,
+  "large_artifact_transport": "32 MiB Git LFS parts plus verified reconstruction",
   "contains_dataset": false,
   "source_baseline": {
     "best_epoch": 18,

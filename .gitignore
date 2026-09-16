@@ -8,3 +8,5 @@ __pycache__/
 runs/
 outputs/
 .env
+
+!artifacts/seed2026_59cls.pth.part-*

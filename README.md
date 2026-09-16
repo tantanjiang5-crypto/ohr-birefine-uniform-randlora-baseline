@@ -45,13 +45,16 @@ coco_bj823/
 └── val2017/
 ```
 
-Copy the SAM checkpoint and exact common initialization listed in `artifacts/README.md`. Then generate the host-local configuration:
+Install Git LFS before cloning, or run `git lfs pull` after installing it. Materialize the exact common initialization from its LFS parts, copy the SAM checkpoint listed in `artifacts/README.md`, then generate the host-local configuration:
 
 ```bash
+git lfs pull
+python scripts/materialize_artifacts.py
+
 python scripts/configure.py \
   --dataset-root /data/coco_bj823 \
   --sam-checkpoint /models/sam_vit_b_01ec64.pth \
-  --common-init /models/seed2026_59cls.pth \
+  --common-init "$PWD/artifacts/seed2026_59cls.pth" \
   --output configs/uniform_randlora_seed2026.local.json
 
 python scripts/verify_host.py --config configs/uniform_randlora_seed2026.local.json
@@ -106,4 +109,4 @@ reference/              audits, resolved config and best validation metrics
 artifacts/README.md      large-file checksums and transfer requirements
 ```
 
-No dataset, credential, checkpoint, trained weight, image, or machine secret is stored in this repository.
+No dataset, credential, image, or machine secret is stored in this repository. The exact common initialization is stored as Git LFS parts and deterministically reconstructed; the SAM checkpoint and historical trained checkpoint are not included.
