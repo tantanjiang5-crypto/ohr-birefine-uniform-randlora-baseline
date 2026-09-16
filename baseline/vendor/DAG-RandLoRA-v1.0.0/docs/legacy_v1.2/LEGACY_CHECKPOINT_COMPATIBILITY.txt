@@ -1,0 +1,6 @@
+Legacy checkpoint compatibility validation
+
+- v1.0: installed the original 1.0.0 wheel, generated a real format_version=1 adapter, injected an equivalent v1.2 model, and loaded with strict=True: PASS (10 keys).
+- v1.1: used the uploaded v1.1.0 source, generated a real format_version=2 adapter, injected an equivalent v1.2 model, and loaded with strict=True: PASS (10 keys).
+
+Compatibility is adapter-checkpoint compatibility, not compatibility with already-merged plain SAM weights.

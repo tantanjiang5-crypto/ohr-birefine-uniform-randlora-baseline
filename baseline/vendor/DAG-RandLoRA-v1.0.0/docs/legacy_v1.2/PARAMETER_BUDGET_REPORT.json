@@ -1,0 +1,28 @@
+{
+  "randlora": {
+    "matched_basis_rank": 70,
+    "num_bases": 11,
+    "actual_trainable_params": 147488,
+    "target_trainable_params": 147456,
+    "absolute_difference": 32,
+    "relative_difference": 0.00021701388888888888
+  },
+  "reference_lora": {
+    "rank": 4,
+    "same_selected_layers_params": 98304
+  },
+  "paper_style_candidates": {
+    "8": 1191936,
+    "16": 602112
+  },
+  "scaling_audit": {
+    "default_alpha_multiplier": 2.0,
+    "resolved_alpha_at_matched_rank": 140.0,
+    "resolved_scaling_alpha_over_rank": 2.0,
+    "paper_visual_reproduction_option": {
+      "alpha": 10.0,
+      "scaling": 0.14285714285714285
+    },
+    "note": "Default preserves v1.1 semantics; it is not claimed as the paper visual default."
+  }
+}

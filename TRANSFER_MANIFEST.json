@@ -1,0 +1,16 @@
+{
+  "package": "ohr-birefine-uniform-randlora-baseline-v1",
+  "files": 126,
+  "bytes": 942897,
+  "contains_large_artifacts": false,
+  "contains_dataset": false,
+  "source_baseline": {
+    "best_epoch": 18,
+    "D_legacy_AP": 0.6761107389269907
+  },
+  "artifact_sha256": {
+    "sam_vit_b_01ec64.pth": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+    "seed2026_59cls.pth": "40467b766d2a98d6937a17029b73507a7264fc54fa9b80bf28442b29707f03e5",
+    "optional_baseline_best.pth": "e107da4151ccae8e85cb8710c6cf6e5a6fe1f6b3583afad061bb1147e52e7ee7"
+  }
+}

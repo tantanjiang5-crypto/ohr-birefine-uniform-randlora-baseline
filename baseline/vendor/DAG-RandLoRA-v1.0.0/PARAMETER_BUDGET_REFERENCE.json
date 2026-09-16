@@ -1,0 +1,13 @@
+{
+  "note": "Reference only. Formal experiments must use the measured Uniform RandLoRA R0 adapter parameter count.",
+  "sam1_vit_b_dim": 768,
+  "selected_blocks": [4, 5, 6, 7, 8, 9, 10, 11],
+  "targets_per_block": ["q", "v"],
+  "uniform_randlora_reference_rank": 70,
+  "uniform_randlora_reference_num_bases": 11,
+  "uniform_randlora_reference_trainable_params": 147488,
+  "reference_lora_r4_qv_all12_budget": 147456,
+  "recommended_r1_candidates_if_rank70": [64, 70, 80],
+  "recommended_r2_candidates_if_rank70": [56, 64, 70, 80, 96],
+  "formal_budget_tolerance": 0.01
+}

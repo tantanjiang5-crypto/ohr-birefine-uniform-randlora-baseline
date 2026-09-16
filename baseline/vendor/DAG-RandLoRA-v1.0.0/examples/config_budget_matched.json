@@ -1,0 +1,33 @@
+{
+  "block_indices": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "qkv_targets": [
+    "q",
+    "v"
+  ],
+  "extra_targets": [],
+  "rank": null,
+  "target_trainable_params": 147456,
+  "auto_match_budget": true,
+  "block_rank_pattern": {},
+  "alpha": null,
+  "alpha_multiplier": 2.0,
+  "dropout": 0.0,
+  "forward_mode": "auto",
+  "cache_eval_delta": true,
+  "seed": 42,
+  "save_basis": true,
+  "sparse_basis": false,
+  "very_sparse_basis": false,
+  "freeze_image_encoder": true,
+  "adapter_dtype": "float32",
+  "budget_warning_tolerance": 0.02
+}

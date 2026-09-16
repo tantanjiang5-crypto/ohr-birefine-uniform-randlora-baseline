@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "mode": "V1",
+  "mqrs_enabled": false,
+  "adapter_type": "randlora",
+  "completed_epoch": 20,
+  "global_step": 29065,
+  "expected_total_optimizer_steps": 29080,
+  "expected_successful_optimizer_steps": 29080,
+  "numerical_skip_count": 15,
+  "accounted_optimizer_attempts": 29080,
+  "optimizer_step_count_ok": true,
+  "best_D_legacy_AP": 0.6761107389269907,
+  "best_epoch": 18,
+  "common_init_sha256": "40467b766d2a98d6937a17029b73507a7264fc54fa9b80bf28442b29707f03e5",
+  "best_checkpoint_exists": true,
+  "last_checkpoint_exists": true,
+  "segmented_run": false,
+  "randlora_k_slices_bitwise_unchanged": true,
+  "randlora_first_lambda_gradient": {
+    "lambda_grad_l1": 6.096608020365238,
+    "gamma_grad_l1": 0.0,
+    "lambda_nonzero": true,
+    "gamma_nonzero": false
+  },
+  "randlora_gamma_nonzero_after_first_step": true
+}

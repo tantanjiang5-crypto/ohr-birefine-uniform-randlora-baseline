@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "real_sam_vit_b_reference_lora_r4_qv_all12": 147456,
+  "default_requested_randlora_budget": 147456,
+  "mock_report": {
+    "default_rank": 5,
+    "actual_adapter_params": 1344,
+    "wrapped_modules": [
+      "blocks.4.attn.qkv[q,v]",
+      "blocks.5.attn.qkv[q,v]",
+      "blocks.6.attn.qkv[q,v]",
+      "blocks.7.attn.qkv[q,v]",
+      "blocks.8.attn.qkv[q,v]",
+      "blocks.9.attn.qkv[q,v]",
+      "blocks.10.attn.qkv[q,v]",
+      "blocks.11.attn.qkv[q,v]"
+    ]
+  },
+  "trainable_audit": {
+    "trainable_parameters": {
+      "blocks.4.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.4.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.4.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.4.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.5.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.5.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.5.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.5.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.6.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.6.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.6.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.6.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.7.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.7.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.7.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.7.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.8.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.8.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.8.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.8.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.9.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.9.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.9.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.9.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.10.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.10.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.10.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.10.attn.qkv.coefficients.v.randlora_gamma": 64,
+      "blocks.11.attn.qkv.coefficients.q.randlora_lambda": 20,
+      "blocks.11.attn.qkv.coefficients.q.randlora_gamma": 64,
+      "blocks.11.attn.qkv.coefficients.v.randlora_lambda": 20,
+      "blocks.11.attn.qkv.coefficients.v.randlora_gamma": 64
+    },
+    "trainable_total": 1344,
+    "unexpected_trainables": {},
+    "pass": true
+  },
+  "finite_loss": true
+}

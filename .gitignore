@@ -1,0 +1,10 @@
+*.pth
+*.pt
+*.ckpt
+*.tar
+*.zip
+__pycache__/
+.pytest_cache/
+runs/
+outputs/
+.env
