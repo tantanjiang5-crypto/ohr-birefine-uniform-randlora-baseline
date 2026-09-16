@@ -12,3 +12,5 @@ outputs/
 !artifacts/seed2026_59cls.pth.part-*
 
 !artifacts/seed2026_59cls.pth
+
+!artifacts/seed2026_59cls.pth
