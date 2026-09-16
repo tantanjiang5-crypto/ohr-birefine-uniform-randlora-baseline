@@ -10,3 +10,5 @@ outputs/
 .env
 
 !artifacts/seed2026_59cls.pth.part-*
+
+!artifacts/seed2026_59cls.pth
